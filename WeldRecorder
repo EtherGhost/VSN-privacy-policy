@@ -1,0 +1,41 @@
+Privacy Policy for WeldRecorder Android App
+
+Effective Date: 2024-11-08
+
+Your Privacy Matters
+
+This Privacy Policy applies to the WeldRecorder Android application (referred to as "the app"). The app is committed to protecting your privacy. Below, we explain how the app uses your data, including how third-party services like Microsoft Identity Client (MSAL) handle authentication, and clarify that the app itself does not collect or store any personal data.
+
+1. Information the App Collects
+No Personal Data Collection by the App
+
+The app does not collect, store, or transmit any personally identifiable information (PII) such as your name, email address, or location. You can use the app without providing any personal data. The app’s primary purpose is to allow users to access certain features, such as using the camera for scanning, without any data collection or sharing.
+
+2. Camera Usage
+The app requests access to your device's camera for functionality like barcode or QR code scanning. No images or videos are collected or transmitted outside of the device. The camera is used locally on the device, solely to enable specific in-app features.
+
+3. Use of Microsoft Identity Client (MSAL)
+The app uses the Microsoft Identity Client (MSAL) library for user authentication purposes. This allows users to sign in securely using Microsoft’s authentication system, which is commonly used for logging into PCs, Azure Active Directory, and other Microsoft services.
+Data Handling with MSAL:
+
+    The authentication process managed by MSAL may collect certain information such as user credentials and authentication tokens.
+    Important Note: When logging into the app via MSAL, the same authentication process and data sharing occur as when you log into your PC or use other Microsoft services. No additional data is collected by the app beyond what is already shared with Microsoft under their agreement with your organization.
+    Microsoft’s Privacy Policy: For more details on how Microsoft handles your data during authentication, please refer to the Microsoft Privacy Statement.
+
+4. Third-Party Libraries
+In addition to MSAL, the app uses several other libraries to provide its functionality. None of these libraries collect personal data:
+- AsyncAwaitBestPractices (for asynchronous programming)
+- Autofac (for dependency injection)
+- Avalonia UI Framework (for building the app’s user interface)
+- ZXing.Net (for barcode scanning)
+- Prism.Core (for managing MVVM architecture)
+
+These libraries are used solely to enhance the performance and functionality of the app and do not collect or transmit any user data.
+
+5. Data Security
+Since the app itself does not collect any personal data, there is no personal information to protect. The camera and other device features are only used locally, and authentication is securely handled by MSAL as part of Microsoft’s trusted authentication system.
+
+6. Your Privacy Choices
+While the app itself does not collect any data, you retain full control over the permissions granted to the app, such as camera access. You can revoke these permissions at any time through your device settings. In terms of authentication, by using MSAL, you are opting into the same secure login process that you use with your existing Microsoft services.
+
+By using the app, you agree to this Privacy Policy and the terms outlined above, including the use of Microsoft’s Identity Client (MSAL).
